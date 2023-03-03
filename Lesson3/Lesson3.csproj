@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Date\954.png" />
+    <None Remove="Date\bold.png" />
+    <None Remove="Date\Curs.png" />
+    <None Remove="Date\Fat.png" />
+    <None Remove="Date\italic.png" />
+    <None Remove="Date\underline.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Date\bold.png" />
+    <Resource Include="Date\italic.png" />
+    <Resource Include="Date\underline.png" />
+  </ItemGroup>
+
+</Project>
